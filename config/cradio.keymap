@@ -5,7 +5,7 @@
     combos {
         compatible = "zmk,combos";
 
-        foo {
+        caps_word {
             bindings = <&caps_word>;
             key-positions = <13 16>;
             layers = <0>;
