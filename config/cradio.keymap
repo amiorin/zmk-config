@@ -17,7 +17,7 @@
         numbers {
             bindings = <
 &kp LG(F6)     &kp LG(F7)   &kp LG(F8)    &kp LG(F9)   &kp LG(F10)    &kp LG(F11)  &kp LG(F12)  &kp LG(F13)   &kp LG(F16)  &kp LG(F17)
-&trans         &trans       &trans        &trans       &trans         &kp LEFT     &kp DOWN     &kp UP        &kp RIGHT    &trans
+&kp LG(F1)     &kp LG(F2)   &kp LG(F3)    &kp LG(F4)   &kp LG(F5)    &kp LEFT     &kp DOWN     &kp UP        &kp RIGHT    &trans
 &mt LSHIFT N1  &mt LALT N2  &mt LCTRL N3  &mt LGUI N4  &kp N5         &kp N6       &mt LGUI N7  &mt LCTRL N8  &mt LALT N9  &mt LSHIFT N0
                                           &trans       &trans         &trans       &trans
             >;
