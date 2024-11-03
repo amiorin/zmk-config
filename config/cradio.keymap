@@ -17,7 +17,7 @@
         numbers {
             bindings = <
 &kp LG(F6)     &kp LG(F7)   &kp LG(F8)    &kp LG(F9)   &kp LG(F10)    &kp LG(F11)  &kp LG(F12)  &kp LG(F13)   &kp LG(F16)  &kp LG(F17)
-&kp LG(F1)     &kp LG(F2)   &kp LG(F3)    &kp LG(F4)   &kp LG(F5)    &kp LEFT     &kp DOWN     &kp UP        &kp RIGHT    &trans
+&kp LG(F1)     &kp LG(F2)   &kp LG(F3)    &kp LG(F4)   &kp LG(F5)     &kp LEFT     &kp DOWN     &kp UP        &kp RIGHT    &trans
 &mt LSHIFT N1  &mt LALT N2  &mt LCTRL N3  &mt LGUI N4  &kp N5         &kp N6       &mt LGUI N7  &mt LCTRL N8  &mt LALT N9  &mt LSHIFT N0
                                           &trans       &trans         &trans       &trans
             >;
@@ -25,10 +25,10 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&kp LS(PLUS)   &kp LS(CARET)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PRCNT)    &kp LS(AMPS)   &kp LS(LT)     &kp LS(GT)  &kp LS(DLLR)   &kp LS(PIPE)
+&kp LS(UNDER)  &kp LS(DQT)    &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(EXCL)     &kp LS(QMARK)  &kp LS(COLON)  &kp LS(AT)  &kp LS(TILDE)  &trans
+&kp MINUS      &kp EQUAL      &kp LBKT      &kp RBKT      &kp LS(POUND)    &kp LS(STAR)   &kp SEMI       &kp GRAVE   &kp BSLH       &kp SQT
+                                            &trans        &trans           &trans         &trans
             >;
         };
     };
