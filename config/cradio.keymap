@@ -27,7 +27,7 @@
             bindings = <
 &kp LS(PLUS)   &kp LS(CARET)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PRCNT)    &kp LS(AMPS)   &kp LS(LT)     &kp LS(GT)  &kp LS(DLLR)   &kp LS(PIPE)
 &kp LS(UNDER)  &kp LS(DQT)    &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(EXCL)     &kp LS(QMARK)  &kp LS(COLON)  &kp LS(AT)  &kp LS(TILDE)  &trans
-&kp MINUS      &kp EQUAL      &kp LBKT      &kp RBKT      &kp LS(POUND)    &kp LS(STAR)   &kp SEMI       &kp GRAVE   &kp BSLH       &kp SQT
+&mt LSHIFT MINUS      &mt LALT EQUAL      &mt LCTRL LBKT      &mt LGUI RBKT      &kp LS(POUND)    &kp LS(STAR)   &mt LGUI  SEMI       &mt LCTRL GRAVE   &mt LALT BSLH       &mt LSHIFT SQT
                                             &trans        &trans           &trans         &trans
             >;
         };
