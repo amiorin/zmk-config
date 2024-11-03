@@ -16,10 +16,10 @@
 
         numbers {
             bindings = <
-&kp LG(F6)  &kp LG(F7)  &kp LG(F8)  &kp LG(F9)  &kp LG(F10)  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                            &trans  &trans    &trans  &trans
+&kp LG(F6)  &kp LG(F7)  &kp LG(F8)  &kp LG(F9)  &kp LG(F10)    &trans    &trans    &trans  &trans     &trans
+&trans      &trans      &trans      &trans      &trans         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans      &trans      &trans      &trans      &trans         &trans    &trans    &trans  &trans     &trans
+                                    &trans      &trans         &trans    &trans
             >;
         };
 
